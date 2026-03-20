@@ -9,7 +9,7 @@ resources:
 images:
   - name: sample-app
     newName: ghcr.io/fveim/devopsproject
-    newTag: 632ce230517759394a08337cd7ecafb50a5683d7
+    newTag: 80bae312df05bf4caae00c824679f32045da4648
 
 patches:
   - patch: |-

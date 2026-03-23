@@ -6,6 +6,11 @@ namespace: prod
 resources:
   - ../../base
 
+images:
+  - name: sample-app
+    newName: ghcr.io/fveim/devopsproject
+    newTag: latest
+
 patches:
   - patch: |-
       - op: replace
